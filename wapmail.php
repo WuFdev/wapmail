@@ -65,7 +65,7 @@ header("Content-Type: text/vnd.wap.wml; charset=utf-8");
 print '<?xml version="1.0" encoding="utf-8"?>';
 print '<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">';
 print '<wml>';
-print '<big>WmlMail</big>';
+print '<big>WmlMail</big>'; 
 
 $action = $_REQUEST["action"];
 if ($_REQUEST['action'] && $_REQUEST['action'] != "login") {
